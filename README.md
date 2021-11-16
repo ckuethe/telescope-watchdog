@@ -11,3 +11,9 @@ be had for the same price as an IR/UV filter.
 
 As my mount has both internal wifi and can be controlled via INDI/INDIGO, I have written a small
 daemon to read an IMU and send a movement abort command if the position exceeds allowable limits.
+
+# to-do
+* skywatcher protocol: [synscan](https://pypi.org/project/synscan/)
+* nextstar protocol: [nexstar](https://pypi.org/project/nexstar/), [point](https://github.com/seeing-things/point)
+* indi protocol: [npindi](https://github.com/geehalel/npindi), [pyindi-client](https://pypi.org/project/pyindi-client/)
+* cleaner IMU abstractions
